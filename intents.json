@@ -1,0 +1,71 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Dzien dobry",
+        "Witam",
+        "Czesc",
+        "dzien dobry"
+      ],
+      "responses": [
+        "Dzien dobry, w czym moge pomoc."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+	  "Do widzenia"
+	  ],
+      "responses": [
+        "Do widzenia",
+        "Dziekuje za kontakt"
+      ]
+    },
+    {
+      "tag": "question1",
+      "patterns": ["Dzien dobry, czy posiadają panstwo koc gasniczy na stronie sklepu"],
+      "responses": ["Dzien dobry, tak posiadamy. Koc znajduje sie w zakladce BHP>osprzet"]
+    },
+    {
+      "tag": "question2",
+      "patterns": [
+        "Dzien dobry, ile trwa czas realizacji zamowienia na drazek izolacyjny",
+        "czas realizacji drążka izolacyjnego"
+      ],
+      "responses": [
+        "Dzien dobry, na chwile obecna czas realizacji to 3 dni"
+      ]
+    },
+    {
+      "tag": "question3",
+      "patterns": [
+        "Czy kupiony u Was sprzęt bedzie posiadal wazne badanie?"
+      ],
+      "responses": [
+        "Dzien dobry, sprzet posiada aktualne badanie, czy moge jeszcze w czyms pomoc?"
+      ]
+    },
+    {
+      "tag": "question4",
+      "patterns": [
+        "dzien dobry, otrzymalam od Panstwa zamowienie, w ktorym jest niezgodnosc. Proszę o kontakt, gdzie mogę to zgłosic?",
+        "Dzien dobry, w zamówieniu które od Państwa otrzymałem jest niezgodzność, gdzie mogę to zgłosić"
+      ],
+      "responses": [
+        "Dzien dobry, proszę podac numer zamówienia oraz telefon do kontaktu"
+      ]
+    },
+    {
+      "tag": "question5",
+      "patterns": [
+        "Witam Prosze o cenę za transformator ",
+        "cena transforamtor",
+        "Jaka jest cena transforamtora"
+      ],
+      "responses": [
+        "Prosze przeslac zapytanie na adres handlowy@egsystem.pl, kolezanka przygotuje oferte"
+      ]
+    }
+  ]
+}
